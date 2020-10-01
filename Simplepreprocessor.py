@@ -10,6 +10,7 @@ class SimplePreprocessor:
 		self.width = width
 		self.height = height
 		self.inter = inter
+                Print(self.inter) 
 
 	def preprocess(self, image):
 	# resize the image to a fixed size, ignoring the aspect
